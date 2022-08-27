@@ -1,38 +1,77 @@
+<!-- index.html is the first main file -->
+<!-- html is just the structure or layout of website, just shows the website -->
+
+<!-- tells you its an html document -->
 <!DOCTYPE html>
 <html lang="en">
+<!-- head tag is more about meta data(data about data, name of doc, number of file) -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bottom, the title is the name of the website that goes on top of the website tab -->
     <title>Document</title>
 </head>
-<body>
+<!-- body, what users actually see, the website -->
+/<body>
     <h1>Hello World</h1>
-    <h3>Hello World</h3>
-<ul>
-    <li>one</li>
-    <li>two</li>
-</ul>
-<ol>
-    <li>one</li>
-    <li>two</li>
-</ol>
-<img src="" alt="test">
-<a href="https://github.com/AliCelikay/first_repo" target="_blank">link</a>
+    <h3>hello</h3>
+    <p>p is for paragraph tag</p>
+    <ul>
+        ul is an n unordered list
+        this is what happens w/o li
+        <li>
+            li is the list element
+        </li>
+        <li>
+            this is what happens in li
+        </li>
+    </ul>
+    <ol>
+        ol is an ordered list
+        this is what happens w/o li
+        <li>
+            this is w li
+        </li>
+        <li>
+            w li
+        </li>
+    </ol>
 
+    <!--        alt is right next to the image and it describes the image -->
+    <img src="" alt="test">
+    <!-- src is an attribute, and the value is inside the "", img source/ url -->
+    <!-- alt is an attribute and the value is a string inside "", alt is a screenreader -->
+<!-- img does not have an open tag or a closing tag, this is a self close or an empty tag -->
+
+
+<!-- (a)nchor tag creates a link -->
+<a href="https://github.com/AliCelikay" target="blank">link</a>
+<!-- adding a target attribute inside the opening a tag allows the link to open in a new page -->
+<!-- "link" is what shows up on the website and which is what has the website link attached to it-->
+<!-- (h)ypertext(ref)rence is an attribute, the link value goes inside the "" -->
+
+<!-- forms for login -->
 <form>
     <label for="">Name</label>
     <input type="text">
-    <input type="radio" name="" id="">
-    <input type="date" name="" id="">
-    <input type="checkbox" name="" id="">
-    <input type="number" name="" id="">
-    <input type="password" name="" id="">
+
 </form>
 
 <button>send</button>
 
-<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores laborum facilis laudantium, modi aperiam blanditiis ullam, consectetur reprehenderit soluta, quis a aliquam. Debitis ad aliquid eius repellendus eum, in enim.</div>
-<footer>hello</footer>
+<!-- div is a division, nonsymmantic -->
+<div>
+    Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff 
+    Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff Stuff 
+</div>
+
+<!-- symmantic=by looking at the tag, you know what that tag is doing and 
+    where it is going to be on the page
+
+    nonsymmentic= you don't know where the tag will be-->
+
+
+
 </body>
 </html>
